@@ -1,177 +1,269 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 	<head>
-		<title>UNIVERSIDAD</title>
-		<meta charset="utf-8">
-		<!-- Responsiveness -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-		<script type="text/javascript" src="rmm-js/responsivemobilemenu.js"></script>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+		<title>Bootstrap | Laboratoria</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-		<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 	</head>
 	<body>
-	<!-- COMIENZO DE NAVEGADOR -->
-		<div class="navs">
-			<nav class="navbar navbar-default navbar-static-top">
-				<div class="container">
-					<ul>
-						<img class="logo" src="img/logo.png"> 
-						<span>UNIVERSIDAD</span>
-						<li>PORTAL</li>
-						<li>SERVICIOS</li>
-						<li>BLOGS</li>
-					</ul>
+		<div class="container">
+			<header>
+				<div class="logo-name">DASHBOARD</div>
+				<div class="botones">
+					<span class="btn glyphicon glyphicon-tasks"></span>
+					<span class="btn glyphicon glyphicon-envelope"></span>
+					<span class="btn-logout">Logout</span>
 				</div>
-			</nav>
-		</div>
-	<!-- FIN DE NAVEGADOR -->
-	<!-- COMIENZO DE OPCIONES FIXED LEFT -->
-		<div class="nav-left">
-			<ul>
-				<div class="home">
-					<li>
-						<span class="glyphicon glyphicon-home"></span>
-						<p>INICIO</p>
-					</li>
-					<div class="linea"></div>
+			</header>
+			<aside>
+				<div class="text-center">
+					<span class="icon glyphicon glyphicon-cloud"></span>
 				</div>
-			<nav>
-			  <div class="libro">
-				<div class="sub-menu">
-					<li>
+				<p class="name text-center">Marcel Newman</p>
+				<!-- Navegacion -->
+				<ul class="navegador nav nav-pills nav-stacked">
+					<li role="presentation">
 						<a href="#">
-						<span class="glyphicon glyphicon-book"></span>
-							<p>MIS ESTUDIOS</p>
-						 <div class="linea1"></div>
+							<span class="glyphicon glyphicon-dashboard"></span>
+							<span class="item">Dashboard</span>
 						</a>
-						<!-- SUB MENÚS -->
-							<ul class="estudio">
-						   <li><a href="#">Ciclo Actual</a></li>
-						   <div class="linea"></div>
-						   <li><a href="#">Mi Carrera</a></li>
-						   <div class="linea"></div>
-						   <li><a href="#">Notas Detalladas</a></li>
-						   <div class="linea"></div>
-						   <li ><a href="#">Mis Exámenes</a></li>
-						   <div class="linea"></div>
-						   <li ><a href="#">Inglés</a></li>
-						   <div class="linea"></div>
-								 <li ><a href="#">Talleres</a></li>
-						 </ul>
-							</li>
-						</div>
-			     
-					</div>
-			</nav>
-					<nav>
-			  <div class="libro">
-				<div class="sub-menu sub-menu1">
-					<li>
-						<a href="#">
-							<span class="glyphicon glyphicon-file"></span>
-							<p>MIS EXÁMENES</p>
-						 <div class="linea1"></div>
-						</a>
-						<!-- SUB MENÚS -->
-							<ul class="exa">
-							   	<li><a href="#">Ciclo Actual</a></li>
-							   	<div class="linea"></div>
-							   	<li><a href="#">Mi Carrera</a></li>
-							   	<div class="linea"></div>
-							   	<li><a href="#">Notas Detalladas</a></li>
-							   	<div class="linea"></div>
-							   	<li ><a href="#">Mis Exámenes</a></li>
-							   	<div class="linea"></div>
-							   	<li ><a href="#">Inglés</a></li>
-							  	<div class="linea"></div>
-								<li ><a href="#">Talleres</a></li>
-						 	</ul>
 					</li>
-				</div>
-			     
-			</div>
-			</nav>
-					<div class="finanza">
-						<li>
-							<span class="glyphicon glyphicon-usd"></span>
-							<p>MIS FINANZAS</p>
-						</li>
-						<div class="linea"></div>
-					</div>
-					<div class="calendario">
-						<li>
-							<span class="glyphicon glyphicon-calendar"></span>
-							<p>MIS RESERVAS</p>
-						</li>
-						<div class="linea"></div>
-					</div>
-					<div class="libros">
-						<li>
-							<span class="glyphicon glyphicon-education"></span>
-							<p>C  I</p>
-						</li>
-						<div class="linea"></div>
-					</div>
-					<div class="ayuda">
-						<li>
-							<span class="glyphicon glyphicon-asterisk"></span>
-							<p>AYUDA</p>
-						</li>
-					</div>
+					<li role="presentation">
+						<a href="#">
+							<span class="glyphicon glyphicon-blackboard"></span>
+							<span class="item">UI Elements</span>
+						</a>
+					</li>
+					<li role="presentation">
+						<a href="#">
+							<span class="glyphicon glyphicon-wrench"></span>
+							<span class="item">Components</span>
+						</a>
+					</li>
+					<li role="presentation">
+						<a href="#">
+							<span class="glyphicon glyphicon-book"></span>
+							<span class="item">Extra Pages</span>
+						</a>
+					</li>
+					<li role="presentation">
+						<a href="#">
+							<span class="glyphicon glyphicon-list"></span>
+							<span class="item">Forms</span>
+						</a>
+					</li>
+					<li role="presentation">
+						<a href="#">
+							<span class="glyphicon glyphicon-th"></span>
+							<span class="item">Data Tables</span>
+						</a>
+					</li>
+					<li role="presentation">
+						<a href="#">
+							<span class="glyphicon glyphicon-signal"></span>
+							<span class="item">Charts</span>
+						</a>
+					</li>
 				</ul>
+			</aside>
+			<section>
+					<div class="colum col-xs-9">
+						<div class="grid-five">	
+							<div class="row text-center ">
+								<div class="grid-icon col-xs-2">
+									<span class="glyphicon glyphicon-heart"></span>
+									<span class="item">933</span>
+									<span class="item-text">933 People liked your page 
+									the last 24 hrs. Whoohoo!</span>
+								</div> 
+								<div class="grid-icon col-xs-2">
+									<span class="glyphicon glyphicon-cloud"></span>
+									<span class="item">+48</span>
+									<span class="item-text">933 People liked your page 
+									the last 24 hrs. Whoohoo!</span>
+								</div>
+								<div class="grid-icon col-xs-2">
+									<span class="glyphicon glyphicon-inbox"></span>
+									<span class="item">23</span>
+									<span class="item-text">933 People liked your page 
+									the last 24 hrs. Whoohoo!</span>
+								</div>
+								<div class="grid-icon col-xs-2">
+									<span class="glyphicon glyphicon-list-alt"></span>
+									<span class="item">+10</span>
+									<span class="item-text">933 People liked your page 
+									the last 24 hrs. Whoohoo!</span>
+								</div>
+								<div class="grid-icon col-xs-2">
+									<span class="glyphicon glyphicon-oil"></span>
+									<span class="item">OK!</span>
+									<span class="item-text">933 People liked your page 
+									the last 24 hrs. Whoohoo!</span>
+								</div>
+							</div>
+						</div>
+						<div class="grid-social">
+							<div class="row text-center">
+								<div class="grid-pic">
+									<div class="col-xs-4">
+										<div class="pic-title">
+											<span>SERVER LOAD</span>
+										</div>
+										<div class="picture">
+										<div class="conte">
+											<span class="glyphicon glyphicon-th"></span>
+											<span class="pic-text">70%</span>
+										</div>
+										</div>
+									</div>	
+								</div>
+								<div class="grid-pic">
+									<div class="col-xs-4">
+										<div class="pic-title">
+											<span>SERVER LOAD</span>
+										</div>
+										<div class="picture">
+										<div class="conte">
+											<span class="glyphicon glyphicon-th"></span>
+											<span class="pic-text">70%</span>
+										</div>
+										</div>
+									</div>	
+								</div>
+								<div class="grid-pic">
+									<div class="col-xs-4">
+										<div class="pic-title">
+											<span>SERVER LOAD</span>
+										</div>
+										<div class="picture">
+										<div class="conte">
+											<span class="glyphicon glyphicon-th"></span>
+											<span class="pic-text">70%</span>
+										</div>
+										</div>
+									</div>	
+								</div>
+								<div class="grid-pic">
+									<div class="col-xs-4">
+										<div class="pic-title">
+											<span>SERVER LOAD</span>
+										</div>
+										<div class="picture">
+										<div class="conte">
+											<span class="glyphicon glyphicon-th"></span>
+											<span class="pic-text">70%</span>
+										</div>
+										</div>
+									</div>	
+								</div>
+								<div class="grid-pic">
+									<div class="col-xs-4">
+										<div class="pic-title">
+											<span>SERVER LOAD</span>
+										</div>
+										<div class="picture">
+										<div class="conte">
+											<span class="glyphicon glyphicon-th"></span>
+											<span class="pic-text">70%</span>
+										</div>
+										</div>
+									</div>	
+								</div>
+								<div class="grid-pic">
+									<div class="col-xs-4">
+										<div class="pic-title">
+											<span>SERVER LOAD</span>
+										</div>
+										<div class="picture">
+										<div class="conte">
+											<span class="glyphicon glyphicon-th"></span>
+											<span class="pic-text">70%</span>
+										</div>
+										</div>
+									</div>	
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="colum1 col-xs-3">
+						<div class="sec-notification">
+							<div class="title text-center">
+								<spanc>NOTIFICATIONS</span>
+							</div>
+							<div class="noti-icon">
+								<span class="glyphicon glyphicon-dashboard"></span>
+								<span class="time">2 MINUTES AGO</span><br>
+								<span class="noti-descrip">
+									<span>James Brown</span> subscribed to your newsietter.
+								</span>
+							</div>
+							<div class="noti-icon">
+								<span class="glyphicon glyphicon-dashboard"></span>
+								<span class="time">2 MINUTES AGO</span><br>
+								<span class="noti-descrip">
+									<span>James Brown</span> subscribed to your newsietter.
+								</span>
+							</div>
+							<div class="noti-icon">
+								<span class="glyphicon glyphicon-dashboard"></span>
+								<span class="time">2 MINUTES AGO</span><br>
+								<span class="noti-descrip">
+									<span>James Brown</span> subscribed to your newsietter.
+								</span>
+							</div>
+							<div class="noti-icon">
+								<span class="glyphicon glyphicon-dashboard"></span>
+								<span class="time">2 MINUTES AGO</span><br>
+								<span class="noti-descrip">
+									<span>James Brown</span> subscribed to your newsietter.
+								</span>
+							</div>
+							<div class="noti-icon">
+								<span class="glyphicon glyphicon-dashboard"></span>
+								<span class="time">2 MINUTES AGO</span><br>
+								<span class="noti-descrip">
+									<span>James Brown</span> subscribed to your newsietter.
+								</span>
+							</div>
+						</div>
+						<div class="sec-team">
+							<div class="title text-center">
+								<span>TEAM MEMBERS</span>
+							</div>
+							<div class="team-item">
+								<span class="pic glyphicon glyphicon-cloud"></span>
+								<span class="name">DIVYA MANIAN</span><br>
+								<span class="status">AVARIABLE</span>
+							</div>
+							<div class="team-item">
+								<span class="pic glyphicon glyphicon-cloud"></span>
+								<span class="name">DIVYA MANIAN</span><br>
+								<span class="status">AVARIABLE</span>
+							</div>
+							<div class="team-item">
+								<span class="pic glyphicon glyphicon-cloud"></span>
+								<span class="name">DIVYA MANIAN</span><br>
+								<span class="status">AVARIABLE</span>
+							</div>
+							<div class="team-item">
+								<span class="pic glyphicon glyphicon-cloud"></span>
+								<span class="name">DIVYA MANIAN</span><br>
+								<span class="status">AVARIABLE</span>
+							</div>
+							<div class="team-item">
+								<span class="pic glyphicon glyphicon-cloud"></span>
+								<span class="name">DIVYA MANIAN</span><br>
+								<span class="status">AVARIABLE</span>
+							</div>
+						</div>
+					</div>
+			</section>
+			<footer>
+					<span>2015 MIRELLA ACERO </span>
+			</footer>
 		</div>
-	<!-- COMIENZO DE LA  BARRA HORIZONTAL  -->
-	<div class="fondo">
-		<div class="barra-superior">
-			<ul class="superior">
-				<p>100</p>
-				<li>
-					<img src="img/correo.png">
-					<span>CORREO</span>
-				</li>
-				<li>
-					<img src="img/aula.png">
-					<span>AULA VIRTUAL</span>
-				</li>
-				<li>
-					<img src="img/impresion.png">
-					<span>IMPRESIONES</span>
-				</li>
-				<li>
-					<img src="img/ver.png">
-					<span>BUSCAR</span>
-				</li>
-			</ul>
-			<div class="dropdown">
-			  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-			    <img src="img/avatar.png">
-			  </button>
-			  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-			    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">MI PERFIL</a></li>
-			    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CAMBIAR A DOCENTE</a></li>
-			    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">VER TUTORIAL</a></li>
-			    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CERRAR SESIÓN</a></li>
-			  </ul>
-			</div>	
-		</div>
-	</div>
-
-
-
-
-
-
-
-
-
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<!-- Javascripts de Bootstrap -->
-		<script src="javascript/b3/collapse.js"></script>
-		<script src="javascript/b3/transition.js"></script>
-		<script src="javascript/menu.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	</body>	
-</html>	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	</body>
+</html>
